@@ -1,10 +1,9 @@
 Design and Analysis of Algorithms — Assignment 3
 Graph Algorithms: DSU, MST, SCC and Shortest Paths
-Student: [Write your full name]
-Group: [Write your group]
+Student: Seipenov Damir
+Group: SE - 2523
 Course: Design and Analysis of Algorithms
 Assignment: 3
-Date: 23 October 2026
 1. Project Overview
 This project studies graph algorithms and compares their behavior on generated graph instances. It covers Disjoint Set Union (DSU), Minimum Spanning Tree (MST), Strongly Connected Components (SCC), and shortest paths in directed acyclic graphs (DAGs).
 
