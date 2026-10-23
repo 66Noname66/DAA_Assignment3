@@ -1,20 +1,21 @@
 Design and Analysis of Algorithms — Assignment 3
 Graph Algorithms: DSU, MST, SCC and Shortest Paths
-Student: Seipenov Damir 
-Group: SE-2523
+Student: [Write your full name]
+Group: [Write your group]
 Course: Design and Analysis of Algorithms
 Assignment: 3
+Date: 23 October 2026
 1. Project Overview
 This project studies graph algorithms and compares their behavior on generated graph instances. It covers Disjoint Set Union (DSU), Minimum Spanning Tree (MST), Strongly Connected Components (SCC), and shortest paths in directed acyclic graphs (DAGs).
 
 The project includes Java source code, tests, benchmark output in CSV format, and a Python script that generates plots from the CSV data.
 2. Algorithms
-DSU: Maintains disjoint sets using find and union.
-Kruskal's algorithm: Builds a minimum spanning forest by sorting edges by weight and joining components with DSU.
-Prim's algorithm: Builds a minimum spanning forest by repeatedly selecting the lightest available edge.
-Kosaraju's algorithm: Finds strongly connected components in a directed graph using two DFS passes.
-Kahn's algorithm: Produces a topological ordering of a directed acyclic graph.
-DAG shortest paths: Uses topological order to calculate shortest distances in a DAG, including graphs with negative edge weights.
+- DSU: Maintains disjoint sets using find and union.
+- Kruskal's algorithm: Builds a minimum spanning forest by sorting edges by weight and joining components with DSU.
+- Prim's algorithm: Builds a minimum spanning forest by repeatedly selecting the lightest available edge.
+- Kosaraju's algorithm: Finds strongly connected components in a directed graph using two DFS passes.
+- Kahn's algorithm: Produces a topological ordering of a directed acyclic graph.
+- DAG shortest paths: Uses topological order to calculate shortest distances in a DAG, including graphs with negative edge weights.
 3. Project Structure
 DAA_Assignment3/
 ├── src/
@@ -30,10 +31,10 @@ DAA_Assignment3/
 └── README.md
 The exact structure may differ depending on how the project files were arranged.
 4. Requirements
-Java JDK 17 or newer
-Python 3
-Python package matplotlib
-Maven, if the project is configured and run with Maven
+- Java JDK 17 or newer
+- Python 3
+- Python package matplotlib
+- Maven, if the project is configured and run with Maven
 Install the plotting dependency:
 python -m pip install matplotlib
 5. Running the Project
